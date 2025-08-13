@@ -1,0 +1,32 @@
+1- Iniciando repositorio e configurando o espaço
+
+    git init -> inicia o repositorio
+    git config --global user.name "Seu nome" -> seta o nome de usuario
+    git config --global user.email "seu email" -> seta o email de usuario
+    git remote add origin URL_do_git -> seta o repositorio do git
+
+2- processo de commit
+
+    git add .
+    git commit -m "mensagem"
+
+3- comandos de verificação
+
+    git status -> retorna o estado atual da aplicação e se tem arquivos para comitar ou nao
+
+    git log -> retorna todas as versoes do nosso codigo e a versão na qual a gente está e a branch
+
+4- comandos de viagem
+    git checkout nome_da_branch -> entra em uma branch ja criada
+    git checkout 6 primeiros numeros do rash da versão -> viaja para a versão correspondente ao numero do rash digitado
+5- comandos de branch
+
+    git branch nome_da_branch -> cria uma branch
+    git branch -m novo_nome -> renomeia a branch que voce está
+
+6- comando de merge
+    git merge nome_da_branch -> usando essa comando dentro da branch que queremos fazer o merge e passando o nome da branch que queremos puxar os dados
+
+7- comando de push
+
+    git push -u origin main -> envia para o git os arquivos da miha branch main
