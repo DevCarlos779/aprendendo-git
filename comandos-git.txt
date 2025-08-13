@@ -31,5 +31,7 @@
 
     git push -u origin main -> envia para o git os arquivos da miha branch main
 
+    git pull origin -> atualiza os seus arquivso para os mais recentes do repositorio github
+
     git clone URL_do_git -> clona o repositorio do github
 
