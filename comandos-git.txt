@@ -29,4 +29,8 @@
 
 7- comando de push
 
-    git push -u origin main -> envia para o git os arquivos da miha branch main
+    git push -u origin main -> envia para o git os arquivos da minha branch main
+
+8- comando pull
+
+    git pull origin -> atualiza meu repositorio local para o repositorio do github mais recente
