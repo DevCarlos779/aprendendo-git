@@ -27,7 +27,13 @@
 6- comando de merge
     git merge nome_da_branch -> usando essa comando dentro da branch que queremos fazer o merge e passando o nome da branch que queremos puxar os dados
 
-7- comando de push
+7- comando de interação com github
+
+    git push -u origin main -> envia para o git os arquivos da miha branch main
+
+    git pull origin -> atualiza os seus arquivso para os mais recentes do repositorio github
+
+    git clone URL_do_git -> clona o repositorio do github
 
     git push -u origin main -> envia para o git os arquivos da minha branch main
 
